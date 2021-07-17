@@ -1,5 +1,16 @@
 # FlixsterPartTwoDebuggingChallange
 
+## RESULT
+
+Fixed six problems
+
+1. RelativeLayout was assigned with ConstraintLayout in MovieAdapter.
+2. getItemCount returned 0 instead of movies.size()
+3. movie.getMovieId() in asyncHttpClient.get instead of hard coded value.
+4. initializeYoutube —> youtubeKey value instead of hard coded value.
+5. MovieAdapter —> intent clickListener to DetailActivity instead of MainActivity (the intent was set to default page)
+6. activity_detail.xml YouTube width set to match_parent instead of 0dp (fixed youtube design view)
+
 
 ## Debugging strategies 
 
