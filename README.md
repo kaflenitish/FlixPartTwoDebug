@@ -1,4 +1,4 @@
-# FlixsterPartOneDebuggingChallange
+# FlixsterPartTwoDebuggingChallange
 
 
 ## Debugging strategies 
@@ -65,13 +65,8 @@
 
 # Hints 
 * Have you checked log cat?
-* Remember that the Json.getString() fucntion is cases and white space sensitive.
-* Are your Json key values the same as in the example call back https://api.themoviedb.org/3/movie/now_playing?api_key=a07e22bc18f5cb106bfe4cc1f83ad8ed
-* Is there anything wrong with the URL we are using for our API request?
+* Which layout should we be using? Constraint or Relative 🔍
+* How big is the list of movies we're returning?
+* How do we launch an activity?
 * Have you Taken a look at the XML file?
-* Take a look at where we actually make our Movie variables in mainActity is something missing?
-
-
-
-
- 
+* Take a look at the Movie model...
